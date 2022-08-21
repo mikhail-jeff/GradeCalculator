@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>Student Grade Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <section class="title-section">
+                <h1>Student Grade Calculator</h1>
+            </section>
+            
+            <section class="name-section">
+                <div>
+                    <label for="studentName">Student Name: </label>
+                    <input type="text" name="" id="studentName" placeholder="Enter student name" maxlength="28" />
+                </div>
+
+                <p id="name"></p>
+            </section>
+
+            <section class="grades-section">
+                <h3>Student Subjects:</h3>
+                <div>
+                    <label for="literature"><span>Literature:</span> </label> <input class="grade" type="number" name="" id="literature" />
+                </div>
+
+                <div>
+                    <label for="philosophy"><span>Philosophy:</span></label> <input class="grade" type="number" name="" id="philosophy" />
+                </div>
+
+                <div>
+                    <label for="science"><span>Science:</span> </label> <input class="grade" type="number" name="" id="science" />
+                </div>
+
+                <div>
+                    <label for="english"><span>English:</span></label> <input class="grade" type="number" name="" id="english" />
+                </div>
+
+                <div>
+                    <label for="history"><span>History:</span></label> <input class="grade" type="number" name="" id="history" />
+                </div>
+
+                <div>
+                    <label for="calculus"><span>Calculus:</span> </label> <input class="grade" type="number" name="" id="calculus" />
+                </div>
+
+                <div>
+                    <label for="filipino"><span>Filipino:</span></label> <input class="grade" type="number" name="" id="filipino" />
+                </div>
+
+                <div>
+                    <label for="algebra"><span>Algebra:</span></label> <input class="grade" type="number" name="" id="algebra" />
+                </div>
+
+                <div><button id="calculate" onclick="computeGrade()">Compute Grade</button></div>
+            </section>
+        <script src="/js/index.js"></script>
+    </body>
+</html>
